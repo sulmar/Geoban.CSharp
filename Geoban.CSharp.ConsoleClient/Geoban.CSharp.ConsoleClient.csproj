@@ -41,11 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Delegates\Calculator.cs" />
+    <Compile Include="Extensions\DateTimeHelper.cs" />
+    <Compile Include="Generics\Factory.cs" />
+    <Compile Include="Generics\ProductsService.cs" />
+    <Compile Include="LazyCollections\Helper.cs" />
+    <Compile Include="LazyCollections\Team.cs" />
+    <Compile Include="Partial\Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <Compile Include="Partial\Product.Designer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

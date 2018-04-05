@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CSharp.ConsoleClient", "Geoban.CSharp.ConsoleClient\Geoban.CSharp.ConsoleClient.csproj", "{F3468FC7-52EB-4479-A5F8-67F6ED4E55CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CSharp.UnitTests", "Geoban.CSharp.UnitTests\Geoban.CSharp.UnitTests.csproj", "{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F3468FC7-52EB-4479-A5F8-67F6ED4E55CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3468FC7-52EB-4479-A5F8-67F6ED4E55CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3468FC7-52EB-4479-A5F8-67F6ED4E55CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
