@@ -54,6 +54,7 @@
     <Compile Include="DateTimeUnitTests.cs" />
     <Compile Include="PartialUnitTests.cs" />
     <Compile Include="LampUnitTests.cs" />
+    <Compile Include="ReflectionUnitTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

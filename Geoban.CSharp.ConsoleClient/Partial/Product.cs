@@ -21,12 +21,17 @@ namespace Geoban.CSharp.ConsoleClient.Partial
 
 
 
-    public partial class Product : Base
+    public partial class Product : Base, ICloneable
     {
 
         partial void OnValidating();
 
         partial void OnValidated();
+
+        public object Clone()
+        {
+            throw new NotImplementedException();
+        }
 
         private int id;
 

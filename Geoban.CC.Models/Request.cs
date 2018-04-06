@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Geoban.CC.Models
 {
-    public class Request : Base
+    public class Request : Base, ICloneable, IDisposable
     {
         public int Id { get; set; }
         public DateTime ApplicationDate { get; set; }
@@ -74,6 +74,17 @@ namespace Geoban.CC.Models
         public void Decline()
         {
             machine.Fire(Trigger.Cancel);
+        }
+
+        public object Clone()
+        {
+            // płytka
+            return this.MemberwiseClone();
+        }
+
+        public void Dispose()
+        {
+            throw new NotImplementedException();
         }
 
         public bool CanDecline
