@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CSharp.ConsoleClient
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CSharp.UnitTests", "Geoban.CSharp.UnitTests\Geoban.CSharp.UnitTests.csproj", "{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CC.Models", "Geoban.CC.Models\Geoban.CC.Models.csproj", "{2ED27DEA-7901-4656-BE1B-8C7C69E81B4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CC.UnitTests", "Geoban.CC.UnitTests\Geoban.CC.UnitTests.csproj", "{0B9F2F14-2423-4081-AAA8-63F3DC35D170}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geoban.CC.Calculators", "Geoban.CC.Calculators\Geoban.CC.Calculators.csproj", "{118073E3-E684-4E2F-B872-471C71FFEBD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A5B40B3-F0A4-4A54-86FD-A4C8F124B023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED27DEA-7901-4656-BE1B-8C7C69E81B4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED27DEA-7901-4656-BE1B-8C7C69E81B4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED27DEA-7901-4656-BE1B-8C7C69E81B4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED27DEA-7901-4656-BE1B-8C7C69E81B4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9F2F14-2423-4081-AAA8-63F3DC35D170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9F2F14-2423-4081-AAA8-63F3DC35D170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9F2F14-2423-4081-AAA8-63F3DC35D170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9F2F14-2423-4081-AAA8-63F3DC35D170}.Release|Any CPU.Build.0 = Release|Any CPU
+		{118073E3-E684-4E2F-B872-471C71FFEBD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{118073E3-E684-4E2F-B872-471C71FFEBD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{118073E3-E684-4E2F-B872-471C71FFEBD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{118073E3-E684-4E2F-B872-471C71FFEBD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
